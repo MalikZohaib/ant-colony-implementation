@@ -1,10 +1,3 @@
-=================
-Ant Colony System
-=================
-
-.. image:: https://travis-ci.org/jurekpawlikowski/ant-colony.svg?branch=master
-    :target: https://travis-ci.org/jurekpawlikowski/ant-colony
-
 Python implementation of the Ant Colony system
 
 Development
@@ -28,3 +21,8 @@ Usage
     graph = Graph(nodes)
 
     path, distance = graph.find_shortest_path()
+
+Output
+-----
+Path: [0, 1, 2, 3]
+Distance: 4.0
